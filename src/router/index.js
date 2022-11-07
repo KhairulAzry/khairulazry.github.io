@@ -1,6 +1,8 @@
 import { createWebHistory, createRouter, routerKey } from 'vue-router';
 
-import ComingSoon from '../pages/ComingSoon.vue';
+import Navigation from '../components/Navigation.vue';
+
+import UnderConstruction from '../pages/UnderConstruction.vue';
 
 import Home from '../pages/Home.vue';
 
@@ -11,11 +13,14 @@ const router = createRouter({
     routes : [
         {
             path: '/',
-            component: Home,
+            components: {
+                default: Home,
+                Navigation: Navigation,
+            },
         },
         {
-            path: '/coming-soon',
-            component: ComingSoon,
+            path: '/under-construction',
+            component: UnderConstruction,
         },
     ],
     scrollBehavior(to, from, savedPosition) {
