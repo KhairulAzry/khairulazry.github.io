@@ -9,6 +9,11 @@
       <div class="space-y-2 text-white text-center">
         <div class="text-h1 font-black uppercase">Coming Soon</div>
         <div>This site is under construction. <br/> Thank you for visiting.</div>
+        <div class="pt-4 w-full flex justify-center">
+            <a href="https://www.buymeacoffee.com/khairulazry" target="_blank">
+              <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+            </a>
+        </div>
       </div>
     </div>
   </div>
