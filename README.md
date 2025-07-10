@@ -1,11 +1,16 @@
 # khairulazry.github.io
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-## Recommended IDE Setup
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
 
 ## Customize configuration
 
@@ -16,7 +21,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 Clone the repository from GitHub
 
 ```sh
-git clone https://github.com/KhairulAzry/khairulazry.github.io.git
+git clone https://github.com/khairulazry/khairulazry.github.io.git
 ```
 
 Go to your project directory
@@ -30,6 +35,7 @@ cd khairulazry.github.io
 ```sh
 npm install
 ```
+> Works perfectly with Node v22.17.0
 
 ### Compile and Hot-Reload for Front-End Preview
 
