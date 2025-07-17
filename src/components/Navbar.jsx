@@ -16,7 +16,7 @@ const Navbar = () => {
     },[showMobileMenu])
 
   return (
-    <div className='absolute top-0 left-0 w-full z-10'>
+    <div className='fixed top-0 left-0 w-full z-10 bg-gray-900'>
         <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
             {/* <img src={assets.logo} alt="" /> */}
             <h1 className='text-2xl sm:text-4xl text-white'>Khairul Azry</h1>
